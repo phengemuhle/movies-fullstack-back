@@ -14,6 +14,6 @@ module.exports = {
         return db('movies').where('id', id).update(body).returning('*')
     },
     addMovie(newMovie){
-        return db('movies').insert(newMovie)
+        return db('movies').insert(newMovie).returning('*')
     }
 }
