@@ -9,7 +9,7 @@ const movies = require('./routs/movie-routs')
 app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
-app.use('/movies', movies)
+app.use('/', movies)
 
 
 
