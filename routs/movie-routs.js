@@ -3,7 +3,7 @@ const router = express.Router()
 const queries = require('../queries/movie-queries')
 
 router.get('/', (req,res) => {
-    queries.showAllMovies().then(movies => res.status(200).send({ movies }))
+    queries.showAllMovies().then(movies => res.send(movies))
 })
 
 router.get('/:title', (req,res) => {
