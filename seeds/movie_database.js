@@ -10,6 +10,7 @@ exports.seed = (knex, Promise) => {
                     rating:0,
                     year: 1999,
                     director:"George Lucas",
+                    review:"",
                     poster : "https://images-na.ssl-images-amazon.com/images/I/51dnPvQrJ6L.jpg"
                 },
                 {
@@ -19,6 +20,7 @@ exports.seed = (knex, Promise) => {
                     rating:0,
                     year: 2002,
                     director:"George Lucas",
+                    review:"",
                     poster : "https://images-na.ssl-images-amazon.com/images/I/61nFfWio-sL._SY679_.jpg"
                 },
                 {
@@ -28,6 +30,7 @@ exports.seed = (knex, Promise) => {
                     rating:0,
                     year: 2005,
                     director:"George Lucas",
+                    review:"",
                     poster : "https://images-na.ssl-images-amazon.com/images/I/61nAp2cNlbL._SY679_.jpg",
                 },
                 {
@@ -37,6 +40,7 @@ exports.seed = (knex, Promise) => {
                     rating:0,
                     year: 1977,
                     director:"George Lucas",
+                    review:"",
                     poster : "https://images-na.ssl-images-amazon.com/images/I/51feXTBzenL.jpg",
                 },
                 {
@@ -46,6 +50,7 @@ exports.seed = (knex, Promise) => {
                     rating:0,
                     year: 1980,
                     director:"George Lucas",
+                    review:"",
                     poster : "http://neoavatara.com/blog/wp-content/uploads/2010/05/empire_strikes_back_style_a.jpg"
                 },
                 {
@@ -55,6 +60,7 @@ exports.seed = (knex, Promise) => {
                     rating:0,
                     year: 1983,
                     director:"George Lucas",
+                    review:"",
                     poster : "https://i.ebayimg.com/images/g/2h0AAOSwnHZYZVtf/s-l640.jpg",
                 },
                 {
@@ -64,6 +70,7 @@ exports.seed = (knex, Promise) => {
                     rating:0,
                     year: 2015,
                     director:"George Lucas",
+                    review:"",
                     poster : "https://images-na.ssl-images-amazon.com/images/I/71YwMxOTQXL._SY550_.jpg",
                 },
                 {
@@ -73,6 +80,7 @@ exports.seed = (knex, Promise) => {
                     rating:0,
                     year: 2017,
                     director:"George Lucas",
+                    review:"",
                     poster : "https://lumiere-a.akamaihd.net/v1/images/sb_payoff_1-sht_v6_lg_tm_lg_e528c9e9.jpeg?region=0%2C0%2C810%2C1200",
                 },
                 {
@@ -82,6 +90,7 @@ exports.seed = (knex, Promise) => {
                     year: 2018,
                     main_characters : "Mr. Grinch",
                     rating: 4,
+                    review:"",
                     poster: "https://uk.imageservice.sky.com/contentid/A5EK6sKrAaycfSWfyRzHJ/BOXART/237/356"
                 },
                 {
@@ -91,7 +100,8 @@ exports.seed = (knex, Promise) => {
                     main_characters : "Sir. Ceed",
                     year: 2018,
                     rating: 2,
-                    poster: "https://www.out.com/sites/out.com/files/2018/06/19/creed_ii-_poster_0.jpg"
+                    review:"",
+                    poster: "https://www.out.com/sites/out.com/files/2018/06/19/creed_ii-_poster.jpg"
                 },
                 {
                     title: "Bohemian Rhapsody",
@@ -100,6 +110,7 @@ exports.seed = (knex, Promise) => {
                     main_characters : "Jesus",
                     year: 2018,
                     rating: 3,
+                    review:"",
                     poster: "https://m.media-amazon.com/images/M/MV5BNDg2NjIxMDUyNF5BMl5BanBnXkFtZTgwMzEzNTE1NTM@._V1_.jpg"
                 },
                 {
@@ -109,6 +120,7 @@ exports.seed = (knex, Promise) => {
                     main_characters : "Buddy, Small Lanister",
                     year: 2003,
                     rating: 5,
+                    review:"",
                     poster: "https://i.pinimg.com/originals/f5/7f/ef/f57fef9e27ec21765c6669ee9dc055b7.jpg"
                 },
                 {
@@ -118,6 +130,7 @@ exports.seed = (knex, Promise) => {
                     main_characters : "Venom, Spider Man",
                     year: 2018,
                     rating: 4,
+                    review:"",
                     poster: "https://www.joblo.com/assets/images/oldsite/posters/images/full/Venom-poster-6.jpg"
                 },
                 {
@@ -127,6 +140,7 @@ exports.seed = (knex, Promise) => {
                     main_characters : "Some Stoners",
                     year: 2004,
                     rating: 5,
+                    review:"",
                     poster: "https://m.media-amazon.com/images/M/MV5BMjA0MTE2MDk2MF5BMl5BanBnXkFtZTYwMzg0NTc2._V1_UY1200_CR89,0,630,1200_AL_.jpg"
                 },
                 {
@@ -136,6 +150,7 @@ exports.seed = (knex, Promise) => {
                     main_characters : "Vickey Valencort, Mama, Bobby Bushay",
                     year: 1998,
                     rating: 5,
+                    review:"",
                     poster: "https://images-na.ssl-images-amazon.com/images/I/51a%2BOoShoLL.jpg"
                 },
             ]);
