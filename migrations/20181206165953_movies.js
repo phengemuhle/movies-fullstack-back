@@ -5,7 +5,7 @@ exports.up = function(knex, Promise) {
         movie.string('title')
         movie.string('year')
         movie.text('description')
-        movie.text('main_characters')
+        movie.text('characters')
         movie.text('review')
         movie.string('director')
         movie.integer('rating')
