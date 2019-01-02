@@ -7,7 +7,7 @@ This project was built to show mastery of both front and [front end](https://git
 Fork and clone this repository and run `npm install`.
 In the terminal you will have to create a database with the exact name of the database I used.
 * To do this in the terminal run 
-* `createdb` 
+* `createdb movie_database` 
 
 ## Deployment
 
